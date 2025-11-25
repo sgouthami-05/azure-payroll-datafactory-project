@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-nycpayroll-gouthami"
+		},
+		"LS_ADLS_NYC_accountKey": {
+			"value": ""
+		},
+		"LS_AzureSQL_NYC_password": {
+			"value": ""
+		},
+		"LS_ADLS_NYC_properties_typeProperties_url": {
+			"value": "https://storageaccount555.dfs.core.windows.net/"
+		},
+		"LS_AzureSQL_NYC_properties_typeProperties_server": {
+			"value": "gouthami.database.windows.net"
+		},
+		"LS_AzureSQL_NYC_properties_typeProperties_database": {
+			"value": "db-nyc-payroll"
+		},
+		"LS_AzureSQL_NYC_properties_typeProperties_userName": {
+			"value": "admin123"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
